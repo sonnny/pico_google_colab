@@ -3,6 +3,7 @@ written on August 9, 2023
 generating pico uf2 file without software installed on the local computer
 we will be using google colab
 
+assumes this github is named blink1 directory
 assumes pico-sdk is uploaded to google drive pico directory
 how to upload pico-sdk to colab link --> 
 https://petewarden.com/2022/09/20/how-to-build-raspberry-pi-pico-programs-with-no-software-installation/
@@ -27,5 +28,7 @@ download the file and upload to pico by holding white boot button when inserting
 
 if having problem not finding PICO_SDK_PATH issue command
 %env PICO_SDK_PATH=../../pico-sdk
+
+remember that PICO_SDK_PATH is already set in CMakeLists.txt
 
 
