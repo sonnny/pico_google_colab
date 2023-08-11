@@ -26,7 +26,7 @@ cd build
 !cmake ..
 !make
 
-if build succesfully uf2 should be in MyDrive/pico/blink1/build
+if build succesfully uf2 should be in MyDrive/pico/pico_google_colab/build
 download the file and upload to pico by holding white boot button when inserting to usb
 then copy the uf2 file to the rp2 that will appear as a regular usb thumbdrive
 
