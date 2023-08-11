@@ -3,6 +3,8 @@ written on August 9, 2023
 generating pico uf2 file without software installed on the local computer
 we will be using google colab https://github.com/sonnny/pico_google_colab/edit/main/colab_pico_readme.txt
 
+I preloaded pico-sdk on my google drive to speed up compiling (see note below)
+
 assumes this github is named pico_google_colab directory
 assumes pico-sdk is uploaded to google drive pico directory
 how to upload pico-sdk to colab link --> 
