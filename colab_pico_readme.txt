@@ -15,13 +15,14 @@ click on google drive icon (wait until it loads)
 when you issue command on colab wait until the spinning arrow stops before continuing to next command
 colab command is executed using shift return
 
-!sudo apt update
+cd /content/drive/MyDrive/pico
 !sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi build-essential libstdc++-arm-none-eabi-newlib
-cd /content/drive/MyDrive/pico/blink1
-!mkdir build
+!git clone https://github.com/sonnny/pico_google_colab.git
+cd pico_google_colab
+mkdir build
 cd build
 !cmake ..
-!make -j
+!make
 
 if build succesfully uf2 should be in MyDrive/pico/blink1/build
 download the file and upload to pico by holding white boot button when inserting to usb
